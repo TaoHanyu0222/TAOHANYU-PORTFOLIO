@@ -920,7 +920,7 @@ ul.tags li a:hover{
     display: table;
     height: 100vh;
     width: 100%;
-    background-image: url(../img/header copy 3.jpg);
+    background-image: url(../img/header copy .jpg);
 		background-attachment: fixed;
     background-position: center center;
     -webkit-background-size: cover;
@@ -2508,21 +2508,21 @@ ul.services-list li{
 		text-align: left;
 }
 #iframe1p5js {
-		position: absolute;
+		position: fixed;
 		width: 22vw;
 		height: 30vw;
 		top: 320px;
 		right: 7vw;
 }
 #iframe2p5js {
-		position: absolute;
+		position: fixed;
 		width: 22vw;
 		height: 30vw;
 		top: 320px;
 		right: 37vw;
 }
 #iframe3p5js {
-		position: absolute;
+		position: fixed;
 		width: 22vw;
 		height: 30vw;
 		top: 320px;
@@ -2664,4 +2664,11 @@ ul.services-list li{
 		font-family: Caslon;
 		text-align: left;
 
+}
+#iframeapp {
+		position: fixed;
+		width: 22vw;
+		height: 30vw;
+		top: 320px;
+		right: 37vw;
 }
